@@ -9,12 +9,7 @@
    }
 }
 app-login-page {
-  .login-background {
-    background-image: url('/assets/images/login_background.jpg');
-    // background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-  }
+  .login-background
 
   .label-style {
     color: #7f7f7f;
