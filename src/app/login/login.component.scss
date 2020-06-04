@@ -1,0 +1,23 @@
+@import '../../app.component.scss';
+.tooltip-style {
+  display: flex !important;
+  max-width: 40% !important;
+ }
+@media (max-width: 767px)  {
+  .tooltip-style {
+    left: 0px !important;
+   }
+}
+app-login-page {
+  .login-background {
+    background-image: url('/assets/images/login_background.jpg');
+    // background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+
+  .label-style {
+    color: #7f7f7f;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
